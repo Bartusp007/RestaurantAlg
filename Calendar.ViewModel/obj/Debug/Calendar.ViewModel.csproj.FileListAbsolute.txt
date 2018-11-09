@@ -1,0 +1,7 @@
+C:\p\CalendarAlg\Calendar.ViewModel\bin\Debug\Calendar.ViewModel.dll
+C:\p\CalendarAlg\Calendar.ViewModel\bin\Debug\Calendar.ViewModel.pdb
+C:\p\CalendarAlg\Calendar.ViewModel\bin\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\Calendar.ViewModel\bin\Debug\ServiceAccess.pdb
+C:\p\CalendarAlg\Calendar.ViewModel\obj\Debug\Calendar.ViewModel.csprojResolveAssemblyReference.cache
+C:\p\CalendarAlg\Calendar.ViewModel\obj\Debug\Calendar.ViewModel.dll
+C:\p\CalendarAlg\Calendar.ViewModel\obj\Debug\Calendar.ViewModel.pdb
