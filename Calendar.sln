@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.UI", "Calendar\Calendar.UI.csproj", "{F7C9D738-3647-4679-868D-31D11A2B0DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.Model", "ServiceAccess\Calendar.Model.csproj", "{DD368FF1-4EF2-4E4D-9A43-48598EAA59C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.Service", "ServiceQuery\Calendar.Service.csproj", "{B2DDDA66-510D-44D1-B88F-988C500FDF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.Data", "Calendar.Data\Calendar.Data.csproj", "{757BE1B7-3478-4794-98CB-588DFBF6EB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.ViewModel", "Calendar.ViewModel\Calendar.ViewModel.csproj", "{B6515DFF-C5B1-4C26-B803-89C4DDD8AAAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.Service.Tests", "Calendar.Service.Test\Calendar.Service.Tests.csproj", "{3AA7FFC9-DFE7-4424-B6BA-1B64FF95B398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C9D738-3647-4679-868D-31D11A2B0DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C9D738-3647-4679-868D-31D11A2B0DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C9D738-3647-4679-868D-31D11A2B0DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C9D738-3647-4679-868D-31D11A2B0DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD368FF1-4EF2-4E4D-9A43-48598EAA59C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD368FF1-4EF2-4E4D-9A43-48598EAA59C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD368FF1-4EF2-4E4D-9A43-48598EAA59C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD368FF1-4EF2-4E4D-9A43-48598EAA59C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DDDA66-510D-44D1-B88F-988C500FDF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DDDA66-510D-44D1-B88F-988C500FDF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DDDA66-510D-44D1-B88F-988C500FDF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DDDA66-510D-44D1-B88F-988C500FDF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757BE1B7-3478-4794-98CB-588DFBF6EB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757BE1B7-3478-4794-98CB-588DFBF6EB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757BE1B7-3478-4794-98CB-588DFBF6EB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757BE1B7-3478-4794-98CB-588DFBF6EB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6515DFF-C5B1-4C26-B803-89C4DDD8AAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6515DFF-C5B1-4C26-B803-89C4DDD8AAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6515DFF-C5B1-4C26-B803-89C4DDD8AAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6515DFF-C5B1-4C26-B803-89C4DDD8AAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA7FFC9-DFE7-4424-B6BA-1B64FF95B398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA7FFC9-DFE7-4424-B6BA-1B64FF95B398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA7FFC9-DFE7-4424-B6BA-1B64FF95B398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA7FFC9-DFE7-4424-B6BA-1B64FF95B398}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bartekpancerski.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ServiceAccess\\Calendar.Model.csproj
+		SccProjectName1 = ServiceAccess
+		SccLocalPath1 = ServiceAccess
+		SccProjectUniqueName2 = Calendar\\Calendar.UI.csproj
+		SccProjectName2 = Calendar
+		SccLocalPath2 = Calendar
+		SccProjectUniqueName3 = ServiceQuery\\Calendar.Service.csproj
+		SccProjectName3 = ServiceQuery
+		SccLocalPath3 = ServiceQuery
+		SccProjectUniqueName4 = Calendar.Data\\Calendar.Data.csproj
+		SccProjectName4 = Calendar.Data
+		SccLocalPath4 = Calendar.Data
+		SccProjectUniqueName5 = Calendar.ViewModel\\Calendar.ViewModel.csproj
+		SccProjectName5 = Calendar.ViewModel
+		SccLocalPath5 = Calendar.ViewModel
+		SccProjectUniqueName6 = Calendar.Service.Test\\Calendar.Service.Tests.csproj
+		SccProjectName6 = Calendar.Service.Test
+		SccLocalPath6 = Calendar.Service.Test
+	EndGlobalSection
+EndGlobal

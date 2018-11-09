@@ -1,0 +1,11 @@
+C:\p\CalendarAlg\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\p\CalendarAlg\Test\bin\Debug\Test.dll
+C:\p\CalendarAlg\Test\bin\Debug\Test.pdb
+C:\p\CalendarAlg\Test\bin\Debug\Calendar.Data.dll
+C:\p\CalendarAlg\Test\bin\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\Test\bin\Debug\EntityFramework.dll
+C:\p\CalendarAlg\Test\bin\Debug\Calendar.Data.pdb
+C:\p\CalendarAlg\Test\bin\Debug\ServiceAccess.pdb
+C:\p\CalendarAlg\Test\bin\Debug\EntityFramework.xml
+C:\p\CalendarAlg\Test\obj\Debug\Test.dll
+C:\p\CalendarAlg\Test\obj\Debug\Test.pdb
