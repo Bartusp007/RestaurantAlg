@@ -1,0 +1,7 @@
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\ServiceQuery.dll
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\ServiceQuery.pdb
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\ServiceAccess.pdb
+C:\p\CalendarAlg\ServiceQuery\obj\Debug\ServiceOperation.csprojResolveAssemblyReference.cache
+C:\p\CalendarAlg\ServiceQuery\obj\Debug\ServiceQuery.dll
+C:\p\CalendarAlg\ServiceQuery\obj\Debug\ServiceQuery.pdb

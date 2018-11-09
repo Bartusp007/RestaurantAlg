@@ -1,0 +1,5 @@
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\ServiceAccess.pdb
+C:\p\CalendarAlg\ServiceAccess\obj\Debug\ServiceAccess.csprojResolveAssemblyReference.cache
+C:\p\CalendarAlg\ServiceAccess\obj\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\ServiceAccess\obj\Debug\ServiceAccess.pdb

@@ -1,0 +1,13 @@
+C:\p\CalendarAlg\ServiceQuery\obj\Debug\Calendar.Service.csprojResolveAssemblyReference.cache
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\Calendar.Service.dll
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\Calendar.Service.pdb
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\Calendar.Data.dll
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\EntityFramework.dll
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\Calendar.Data.pdb
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\ServiceAccess.pdb
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\EntityFramework.xml
+C:\p\CalendarAlg\ServiceQuery\obj\Debug\Calendar.Service.dll
+C:\p\CalendarAlg\ServiceQuery\obj\Debug\Calendar.Service.pdb
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\Calendar.ViewModel.dll
+C:\p\CalendarAlg\ServiceQuery\bin\Debug\Calendar.ViewModel.pdb

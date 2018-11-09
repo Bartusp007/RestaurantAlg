@@ -1,0 +1,10 @@
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\ServiceAccess.dll.config
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\ServiceAccess.pdb
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\EntityFramework.dll
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\EntityFramework.xml
+C:\p\CalendarAlg\ServiceAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\p\CalendarAlg\ServiceAccess\obj\Debug\Calendar.Model.csprojResolveAssemblyReference.cache
+C:\p\CalendarAlg\ServiceAccess\obj\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\ServiceAccess\obj\Debug\ServiceAccess.pdb

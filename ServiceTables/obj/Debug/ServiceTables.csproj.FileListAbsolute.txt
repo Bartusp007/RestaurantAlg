@@ -1,0 +1,7 @@
+C:\p\CalendarAlg\ServiceTables\bin\Debug\ServiceTables.dll
+C:\p\CalendarAlg\ServiceTables\bin\Debug\ServiceTables.pdb
+C:\p\CalendarAlg\ServiceTables\bin\Debug\ServiceAccess.dll
+C:\p\CalendarAlg\ServiceTables\bin\Debug\ServiceAccess.pdb
+C:\p\CalendarAlg\ServiceTables\obj\Debug\ServiceTables.csprojResolveAssemblyReference.cache
+C:\p\CalendarAlg\ServiceTables\obj\Debug\ServiceTables.dll
+C:\p\CalendarAlg\ServiceTables\obj\Debug\ServiceTables.pdb
