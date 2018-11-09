@@ -1,0 +1,69 @@
+﻿<Window x:Class="Calendar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calendar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="780" Width="1000">
+    <Grid Margin="0,-27,-77,-224" RenderTransformOrigin="0.5,0.5" >
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.253"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Label 
+            x:Name="label_SprawdzDostepnosc"
+            Content="Sprawdz dostępność" 
+            HorizontalAlignment="Center" 
+            Margin="20,61,551,0" 
+            VerticalAlignment="Top" 
+            Width="498" 
+            FontSize="36"
+            />
+        <Label x:Name="LabelDataPreRezerwacji" Content="Data:" HorizontalAlignment="Left" Height="25" Margin="25,125,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="LabelGodzinaPreRezerwacji" Content="Godzina" HorizontalAlignment="Left" Height="25" Margin="25,155,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="LabelIloscOsobPreRezerwacja" Content="Ilosc osob" HorizontalAlignment="Left" Height="25" Margin="25,189,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button x:Name="SprawdzDostepnosc" Content="Sprawdz dostepnosc" HorizontalAlignment="Left" Height="35" Margin="93,241,0,0" VerticalAlignment="Top" Width="130" Background="GreenYellow" FontWeight="Bold" Click="button_Click"/>
+        <Label x:Name="ComunicationLabel" Content="Label" HorizontalAlignment="Center" Height="60" Margin="26,709,86,0" VerticalAlignment="Top" Width="957" FontSize="22"  />
+        <Button x:Name="WyswietlRezerwacje" Content="Wyswietl rezerwaacje" HorizontalAlignment="Left" Height="35" Margin="834,639,0,0" VerticalAlignment="Top" Width="130" Background="Purple"  FontWeight="Bold" Foreground="White" Click="WyswietlRezerwacje_Click"/>
+        <Label x:Name="InformationAboutTables" Content="" Height="542" Margin="633,37,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="339"/>
+        <DatePicker x:Name="DatePickerDataPreRezerwacji" HorizontalAlignment="Left" Height="30" Margin="125,126,0,0" VerticalAlignment="Top" Width="85"/>
+        <ComboBox x:Name="ComboBoxGodzinaOdPreRezerwacji" HorizontalAlignment="Left" Height="25" Margin="125,161,0,0" VerticalAlignment="Top" Width="45"/>
+        <TextBox x:Name="TextBoxPreReservationIloscOsob" HorizontalAlignment="Left" Height="24" Margin="125,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="95"/>
+        <ComboBox x:Name="ComboBoxGodzinaDoPreRezerwacji" HorizontalAlignment="Left" Height="25" Margin="185,161,0,0" VerticalAlignment="Top" Width="45" RenderTransformOrigin="2,0.56" />
+        <Button x:Name="Rezerwuj" Content="Rezerwuj" HorizontalAlignment="Left" Height="35" Margin="37,656,0,0" VerticalAlignment="Top" Width="130" Background="Black"  FontWeight="Bold" Foreground="White" Click="Rezerwuj_Click"/>
+        <Label 
+            x:Name="label_Rezerwacja"
+            Content="Zarezerwuj:" 
+            HorizontalAlignment="Center" 
+            Margin="17,279,554,0" 
+            VerticalAlignment="Top" 
+            Width="498" 
+            FontSize="36"
+            />
+        <Label x:Name="LabelImie" Content="Imie:" HorizontalAlignment="Left" Height="25" Margin="27,354,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TextBoxImie" HorizontalAlignment="Left" Height="24" Margin="127,356,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="LabelNazwisko" Content="Nazwiso:" HorizontalAlignment="Left" Height="25" Margin="29,396,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TextBoxNazwisko" HorizontalAlignment="Left" Height="24" Margin="129,398,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="LabelEmail" Content="Email:" HorizontalAlignment="Left" Height="25" Margin="29,438,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TextBoxEmail" HorizontalAlignment="Left" Height="24" Margin="129,440,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="LabelPhoneNumber" Content="Phone number:" HorizontalAlignment="Left" Height="25" Margin="29,480,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TextBoxPhoneNumber" HorizontalAlignment="Left" Height="24" Margin="129,482,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="LabelIloscOsob" Content="Ilość osób:" HorizontalAlignment="Left" Height="25" Margin="30,523,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="TextBoxIloscOsob" HorizontalAlignment="Left" Height="24" Margin="130,525,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="LabelData" Content="Data:" HorizontalAlignment="Left" Height="25" Margin="29,563,0,0" VerticalAlignment="Top" Width="95"/>
+        <DatePicker x:Name="DatePickerDataRezerwazji" HorizontalAlignment="Left" Margin="131,562,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LabelImieCopy" Content="Imie:" HorizontalAlignment="Left" Height="25" Margin="27,354,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="LabelGodzinaRezerwacji" Content="Godzina" HorizontalAlignment="Left" Height="25" Margin="31,601,0,0" VerticalAlignment="Top" Width="95"/>
+        <ComboBox x:Name="ComboBoxGodzinaOdPRezerwacji" HorizontalAlignment="Left" Height="25" Margin="131,602,0,0" VerticalAlignment="Top" Width="45"/>
+        <ComboBox x:Name="ComboBoxGodzinaDoRezerwacji" HorizontalAlignment="Left" Height="25" Margin="191,602,0,0" VerticalAlignment="Top" Width="45" RenderTransformOrigin="2,0.56" />
+        <Label x:Name="Labelwyzwietlrezerwacje" Content="Data:" HorizontalAlignment="Left" Height="25" Margin="587,646,0,0" VerticalAlignment="Top" Width="95"/>
+        <DatePicker x:Name="DatePickerWyswietlrezerwacje" HorizontalAlignment="Left" Margin="689,645,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
