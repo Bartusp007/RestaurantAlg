@@ -1,3 +1,3 @@
-# RestaurantAlg
-Algoritm for booking tables
-Wstepny algorytm do bukoiwania stolikow.
+# RestaurantAlgorithm
+Algorithm for booking tables in the restaurant.
+
